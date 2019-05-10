@@ -8,7 +8,7 @@ body {
     justify-content: space-between;
     align-content: center;
     align-items: center;
-    height: 10vh;
+    height: 15vh;
     background-color: #424249;
     color: #fffdfc;
     padding-left: 20px;
@@ -28,15 +28,20 @@ body {
     align-content: center;
     padding: 50px;
     font-size: 20px;
+}
 
+.inputed-expense {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #expenses {
-    display: flex;
     background-color: #EFE8E1;
     color: #424249;
     padding: 25px;
     width: 25%;
+    border-radius: 5px;
 }
 
 .add {
@@ -45,6 +50,7 @@ body {
     background-color: #54D2E5;
     color: #424249;
     padding: 25px;
+    border-radius: 5px;
 }
 
 h3 {
